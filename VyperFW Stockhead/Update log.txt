@@ -1,0 +1,3 @@
+1. Added detection measures for strain gauges
+2. Optimized the prompt of printer abnormal pop-up
+3. The motherboard firmware/screen firmware has been upgraded

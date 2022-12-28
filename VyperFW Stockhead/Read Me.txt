@@ -1,0 +1,18 @@
+Motherboard firmware update steps:
+
+Update steps:
+1. Format the SD card, copy the motherboard firmware (main_board_20210902_viper_v2.4.5.bin) to the root directory of the SD card, and store only this file in the SD card.
+2. Insert the SD card into the printer in the shutdown state, and then turn on the printer.
+3. At this time, the lamp of the print head will light up. After a while, the printer will automatically update the firmware.
+4. After the update is complete, the screen will automatically enter the main interface. Then shut down, and then pull out the SD card. update completed.
+5. Power on, click "System" ¡ú "About" ¡ú "Firmware Version" to confirm the firmware version.
+
+Screen firmware update steps:
+
+   1. Copy the DWIN_SET folder to the root directory of the SD card, and store only this file in the SD card.
+
+   2. Insert the SD card into the SD card slot on the back of the touch screen in the off state, and then turn on the printer, the screen enters a blue screen state, wait for about one minute, the motherboard will play boot music, and the screen will automatically enter the main interface, which represents the screen firmware update completed.
+
+Troubleshooting method:
+
+   If it stays on the blue screen for a long time, no animation is played. It is very likely that there is a problem with the formatting of the SD card. Please reformat, note: formatted as fat32, the allocation unit size must be 4096 bytes
